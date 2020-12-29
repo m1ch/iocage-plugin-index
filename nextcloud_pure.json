@@ -5,8 +5,8 @@
     "artifact": "https://github.com/m1ch/iocage-plugin-nextcloud.git",
     "official": false,
     "properties": {
-        "nat": 0,
-        "nat_forwards": "tcp(80:8282)"
+        "allow_raw_sockets": 1,
+        "dhcp": 1
     },
     "pkgs": [
         "php74-pecl-imagick-im7",
@@ -45,7 +45,7 @@
         "php74-imap",
         "php74-pecl-redis",
         "ffmpeg",
-        "nginx",
+        "nginx"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
