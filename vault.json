@@ -1,12 +1,12 @@
 {
-    "name": "Grafana",
+    "name": "Vault",
     "plugin_schema": "2",
     "release": "12.1-RELEASE",
-    "artifact": "https://github.com/MalteHillmann/iocage-plugin-grafana.git",
+    "artifact": "https://github.com/marblenix/iocage-plugin-vault.git",
     "pkgs": [
-        "grafana7",
-        "influxdb",
-        "curl"
+        "vault",
+        "jq",
+        "moreutils"
     ],
     "properties": {
         "dhcp": 1
