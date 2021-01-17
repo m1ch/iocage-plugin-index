@@ -1,5 +1,6 @@
 {
-  "name": "Reverseproxy-KISS",
+  "name": "Nginx-KISS",
+  "plugin_schema": "2",
   "release": "12.2-RELEASE",
   "artifact": "https://github.com/m1ch/iocage-plugin-reverseproxy.git",
   "official": "false",
