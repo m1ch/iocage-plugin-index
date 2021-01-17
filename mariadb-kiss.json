@@ -1,17 +1,17 @@
 {
-  "name": "MariaDB",
+  "name": "MariaDB-KISS",
   "plugin_schema": "2",
-  "release": "11.4-RELEASE",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/m1ch/iocage-plugin-mariadb.git",
-  "official": "false",
+  "official": false,
   "properties": {
     "allow_raw_sockets": "1",
     "dhcp": "1"
   },
   "pkgs": [
-    "databases/mariadb104-server",
-    "databases/mariadb104-client",
-    "databases/adminer",
+    "mariadb105-server",
+    "mariadb105-client",
+    "adminer",
     "php72-mysqli"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",

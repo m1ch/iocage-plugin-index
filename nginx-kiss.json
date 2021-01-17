@@ -1,6 +1,6 @@
 {
-  "name": "reverseproxy",
-  "release": "11.3-RELEASE",
+  "name": "Reverseproxy-KISS",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/m1ch/iocage-plugin-reverseproxy.git",
   "official": "false",
   "properties": {
@@ -9,7 +9,7 @@
   },
   "pkgs": [
     "nginx",
-    "letsencrypt",
+    "acme.sh",
     "wget"
   ],
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
