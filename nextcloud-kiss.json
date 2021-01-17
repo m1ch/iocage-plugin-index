@@ -1,5 +1,5 @@
 {
-    "name": "NextcloudPure",
+    "name": "Nextcloud-KISS",
     "plugin_schema": "2",
     "release": "12.2-RELEASE",
     "artifact": "https://github.com/m1ch/iocage-plugin-nextcloud.git",

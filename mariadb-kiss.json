@@ -6,7 +6,7 @@
   "official": false,
   "properties": {
     "allow_raw_sockets": "1",
-    "dhcp": "1"
+    "dhcp": "0"
   },
   "pkgs": [
     "mariadb105-server",
