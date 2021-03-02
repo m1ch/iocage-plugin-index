@@ -23,7 +23,6 @@
         "php80-iconv",
         "php80-imap",
         "php80-intl",
-        "php80-json",
         "php80-ldap",
         "php80-mbstring",
         "php80-opcache",
